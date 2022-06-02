@@ -143,7 +143,7 @@ function my_keydown(e)
 
 function down()
 {
-    if(player_y <= 500)
+    if(player_y <= 550)
     {
         player_y = player_y + block_image_height;
         console.log("block image height = " + block_image_height);
@@ -170,7 +170,7 @@ function up()
 
 function right()
 {
-    if(player_x <= 500)
+    if(player_x <= 800)
     {
         player_x = player_x + block_image_width;
         console.log("block image width = " + block_image_width);
